@@ -1,0 +1,8 @@
+﻿src/_root/pages/Home.tsx(25,10): error TS2345: Argument of type '(creator: Models.Document & { posts: any[]; }) => { postCount: number; $id: string; $collectionId: string; $databaseId: string; $createdAt: string; $updatedAt: string; $permissions: string[]; posts: any[]; }' is not assignable to parameter of type '(value: Document, index: number, array: Document[]) => { postCount: number; $id: string; $collectionId: string; $databaseId: string; $createdAt: string; $updatedAt: string; $permissions: string[]; posts: any[]; }'.
+  Types of parameters 'creator' and 'value' are incompatible.
+    Type 'Document' is not assignable to type 'Document & { posts: any[]; }'.
+      Property 'posts' is missing in type 'Document' but required in type '{ posts: any[]; }'.
+src/lib/appwrite/api.ts(30,7): error TS2322: Type 'string' is not assignable to type 'URL'.
+src/lib/appwrite/api.ts(66,35): error TS2551: Property 'createEmailSession' does not exist on type 'Account'. Did you mean 'createSession'?
+src/lib/appwrite/api.ts(189,7): error TS2345: Argument of type '"top"' is not assignable to parameter of type 'ImageGravity | undefined'.
+src/lib/appwrite/api.ts(292,27): error TS2322: Type 'string' is not assignable to type 'URL'.
