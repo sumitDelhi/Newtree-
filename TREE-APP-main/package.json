@@ -1,14 +1,17 @@
-{
+{  
   "name": "NewTree",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/sumitDelhi/Newtree-",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "start": "vite preview", 
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.1",
